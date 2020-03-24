@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <title>Jon's Carpentry Services</title>
+</head>
+
+<body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="showcase">
+        <div class="container showcase-inner">
+            <h1>Jon's Carpentry</h1>
+            <p>
+                Build your dream home with the help of a trustworthy, local
+                business. I love to build what my clients need exactly the way
+                they need it.
+            </p>
+            <a href="#" class="btn">Get a free quote</a>
+        </div>
+    </header>
+    <main>
+        <div class="about-outer">
+            <div class="image-background fence large-inner">
+                <div>
+                    Decks & Fences
+                    <hr />
+                </div>
+            </div>
+            <div class="large-inner">
+                <div>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#">Link ></a>
+                </div>
+            </div>
+        </div>
+        <div class="about-outer reverse">
+            <div class="large-inner">
+                <div>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#">Link ></a>
+                </div>
+            </div>
+            <div class="image-background kitchen large-inner">
+                <div>
+                    Kitchens
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="about-outer">
+            <div class="image-background bathroom large-inner">
+                <div>
+                    Bathrooms
+                    <hr />
+                </div>
+            </div>
+            <div class="large-inner">
+                <div>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#">Link ></a>
+                </div>
+            </div>
+        </div>
+        <div id="gallery"></div>
+    </main>
+    <script>
+        // Array of images to use for gallery
+        let image = [{
+            src: 'images/fence.jpg',
+            text: 'A fence.'
+        }];
+        console.log("image array", image);
+        console.log("image[0].src", image[0].src);
+        // Create gallery
+        let gallery = document.createElement("div").classList.add("galleryClass");
+        // Get the gallery
+        
+        console.log("gallery", gallery);
+        // Create img
+        let galleryImage = document.createElement("img");
+        galleryImage.src = image[0].src;
+        console.log("galleryImage", galleryImage);
+        // Append img to gallery
+        gallery.appendChild("galleryImage");
+    </script>
+</body>
+
+</html>

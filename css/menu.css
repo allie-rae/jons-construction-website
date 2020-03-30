@@ -1,6 +1,6 @@
 /* CORE STYLES */
 :root {
-  --primary-color: rgba(10, 15, 20, 0.75);
+  --primary-color: rgba(10, 15, 20, 0.65);
   --overlay-color: rgba(10, 15, 20, 0.85);
   --menu-speed: 0.75s;
 }

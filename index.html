@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/menu.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/services.css" />
     <link rel="stylesheet" href="css/gallery.css" />
     <title>Jon's Carpentry Services</title>
 </head>
@@ -53,10 +53,11 @@
             <div class="large-inner">
                 <div>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.
+                        I construct the highest quality decks and fences to your exact
+                        specifications. There's no time like the present to create a
+                        beautiful outdoor space for your home.
                     </p>
-                    <a href="#">Link ></a>
+                    <a href="#">Gallery ></a>
                 </div>
             </div>
         </div>
@@ -64,58 +65,74 @@
             <div class="large-inner">
                 <div>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.
+                        Always wanted that gorgeous wooden overlay but never got
+                        around to it? I can upgrade your home with wooden ceilings
+                        and beams.
                     </p>
-                    <a href="#">Link ></a>
+                    <a href="#">Gallery ></a>
                 </div>
             </div>
-            <div class="image-background kitchen large-inner">
+            <div class="image-background ceiling large-inner">
                 <div>
-                    Kitchens
+                    Ceilings
                     <hr />
                 </div>
             </div>
         </div>
         <div class="about-outer">
-            <div class="image-background bathroom large-inner">
+            <div class="image-background furniture large-inner">
                 <div>
-                    Bathrooms
+                    Custom Furniture
                     <hr />
                 </div>
             </div>
             <div class="large-inner">
                 <div>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.
+                        Use reclaimed and recycled wood for that rustic charm
+                        or build something new. Check out the gallery to see pictures
+                        of completed furtniture projects.
                     </p>
-                    <a href="#">Link ></a>
+                    <a href="#">Gallery ></a>
                 </div>
             </div>
         </div>
-        <div id="gallery"></div>
     </main>
-    <script>
-        // Array of images to use for gallery
-        let image = [{
-            src: 'images/fence.jpg',
-            text: 'A fence.'
-        }];
-        console.log("image array", image);
-        console.log("image[0].src", image[0].src);
-        // Create gallery
-        let gallery = document.createElement("div").classList.add("galleryClass");
-        // Get the gallery
-        
-        console.log("gallery", gallery);
-        // Create img
-        let galleryImage = document.createElement("img");
-        galleryImage.src = image[0].src;
-        console.log("galleryImage", galleryImage);
-        // Append img to gallery
-        gallery.appendChild("galleryImage");
-    </script>
+    <h2 class="gallery-header">Gallery</h2>
+    <div class="gallery-container">
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/ceiling.jpg">
+                    <img src="images/ceiling.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/ceiling.jpg">
+                    <img src="images/ceiling.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/ceiling.jpg">
+                    <img src="images/ceiling.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/ceiling.jpg">
+                    <img src="images/ceiling.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

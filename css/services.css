@@ -4,18 +4,18 @@
 }
 
 .fence {
-  background-image: url("../images/fence.jpg");
+  background-image: url("../images/fence-2.jpg");
   background-size: cover;
 }
 
-.kitchen {
-    background-image: url("../images/kitchen.jpg");
-    background-size: cover;
+.ceiling {
+  background-image: url("../images/ceiling.jpg");
+  background-size: cover;
 }
 
-.bathroom {
-    background-image: url("../images/bathroom-2.jpg");
-    background-size: cover;
+.furniture {
+  background-image: url("../images/rustic-table.jpg");
+  background-size: cover;
 }
 
 .large-inner {
@@ -33,7 +33,7 @@
   }
 
   .reverse {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 }
 
@@ -71,4 +71,9 @@
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
 }

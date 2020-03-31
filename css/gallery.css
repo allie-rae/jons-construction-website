@@ -20,7 +20,6 @@ div.desc {
 
 .responsive {
   padding: 0 4px;
-  float: left;
   width: 24.99999%;
   margin: 0;
 }
@@ -54,4 +53,6 @@ div.desc {
   max-width: 1200px;
   width: 100%;
   padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -55,4 +55,5 @@ div.desc {
   padding: 0 2%;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }

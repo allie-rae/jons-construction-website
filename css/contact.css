@@ -1,0 +1,25 @@
+.contact-section {
+    text-align: center;
+    background-color: rgba(10, 15, 20, 0.65);
+    background-image: url("../images/fence.jpg");
+    padding: 7%;
+    font-size: 1.2rem;
+}
+
+.white-wrapper-contact { 
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 3.5%;
+}
+
+.white-wrapper-contact > a {
+    text-decoration: underline;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-section {
+        padding: 80px 25px;
+    }
+}

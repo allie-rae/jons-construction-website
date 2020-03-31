@@ -2,6 +2,7 @@
     text-align: center;
     background-color: rgba(10, 15, 20, 0.65);
     background-image: url("../images/fence.jpg");
+    background-size: cover;
     padding: 7%;
     font-size: 1.2rem;
 }
